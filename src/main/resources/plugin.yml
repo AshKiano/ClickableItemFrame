@@ -1,0 +1,13 @@
+name: ClickableItemFrame
+version: '${project.version}'
+main: com.ashkiano.clickableitemframe.ClickableItemFrame
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  setitemframecommand:
+    description: Sets the command for the clicked ItemFrame
+    usage: /setitemframecommand <command>
+permissions:
+  clickableitemframe.setcommand:
+    description: Allows setting commands for ItemFrames
+    default: op
